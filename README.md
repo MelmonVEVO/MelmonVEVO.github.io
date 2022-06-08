@@ -1,3 +1,3 @@
 # melmon.dev source code
 
-This is the source code for the website hosted at https://melmon.dev and https://www.melmon.dev, containing everything except my CV.
+This is the source code for the website hosted at https://melmon.dev and https://www.melmon.dev
