@@ -6,7 +6,7 @@ environment:
   site: melmon.srht.site
 tasks:
 - package: |
-    cd $site
+    cd melmon.dev
     tar -cvz . > ../site.tar.gz
 - upload: |
     hut pages publish -d $site site.tar.gz
