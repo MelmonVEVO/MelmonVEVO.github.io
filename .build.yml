@@ -11,11 +11,11 @@ tasks:
     tar -cvz . > ../../httpsite.tar.gz
 - upload_http: |
     hut pages publish -d $site httpsite.tar.gz
-- package_gemini: |
-    cd $site
-    cd gemini
-    tar -cvz . > ../../geminisite.tar.gz
-- upload_gemini: |
-    acurl -f https://pages.sr.ht/publish/$site \
-        -Fcontent=@geminisite.tar.gz \
-        -Fprotocol=GEMINI
+#- package_gemini: |
+#    cd $site
+#    cd gemini
+#    tar -cvz . > ../../geminisite.tar.gz
+#- upload_gemini: |
+#    acurl -f https://pages.sr.ht/publish/$site \
+#        -Fcontent=@geminisite.tar.gz \
+#        -Fprotocol=GEMINI
