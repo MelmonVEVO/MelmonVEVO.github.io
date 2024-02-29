@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	src: url('font/BarlowSemiCondensed-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Barlow Semi Condensed Bold';
+	src: url('font/BarlowSemiCondensed-Bold.ttf');
+}
+
 body {
 	font-family: "Barlow Semi Condensed", sans-serif;
 	color: white;
@@ -43,7 +53,7 @@ a:visited {
 
 #nav span {
 	font-size: 32px;
-	font-weight: bold;
+	font-family: "Barlow Semi Condensed Bold", sans-serif;
 }
 
 .actualContent {
@@ -68,4 +78,8 @@ a:visited {
 h4 {
     color: grey;
     text-transform: uppercase;
+}
+
+b {
+	font-family: "Barlow Semi Condensed Bold", sans-serif;
 }
