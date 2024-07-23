@@ -10,7 +10,7 @@ tasks:
     cd http
     tar -cvz . > ../../httpsite.tar.gz
 - upload_http: |
-    hut pages publish --not-found ./404.html -d $site httpsite.tar.gz
+    hut pages publish -d $site httpsite.tar.gz
 #- package_gemini: |
 #    cd $site
 #    cd gemini
