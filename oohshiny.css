@@ -43,12 +43,15 @@ a:visited {
 	border-bottom: 5px solid white;
 	border-left: 5px solid white;
 	border-right: 5px solid white;
-	text-align: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 #nav a {
 	color: #FFFFFF;
 	text-decoration: none;
+  flex-grow: 1;
 }
 
 #nav span {
@@ -88,4 +91,8 @@ h4 {
 
 b {
 	font-family: "Barlow Semi Condensed Bold", sans-serif;
+}
+
+li {
+  margin-bottom: 6px;
 }
